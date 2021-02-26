@@ -1,0 +1,96 @@
+
+        *{
+            box-shadow: none;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        h1,h2,h3{
+            font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+        }
+
+        body{
+            display: block;
+            background-color: #e2e2e2;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        div{
+            margin: auto;
+            padding: 10px;
+            padding-top: 50px;
+            padding-bottom: 30px;
+            border-radius: 20px;
+        }
+
+        nav{
+            display: flex; width: 100%; 
+            justify-content: space-evenly;
+            background-color: #ccf7f1;
+        }
+
+        #header{
+            top: 0;
+            margin-top: 10px !important;
+            padding: 10px;
+            padding-left: 0;
+            padding-right: 0;
+            display: flex;
+            position: sticky;
+            z-index: 1;
+            width: 95%;
+            background-color: #ccf7f1;
+            border: solid 1px black;
+        }
+
+        .menu{
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            background-color: #ccf7f1;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+        }
+
+        #container{
+            text-align: justify;
+            display: block;
+            width: 80%;
+            justify-content: center;
+            background-color: #ceeedc;
+            padding-top: 0;
+        }
+
+        table{
+            padding: 0;
+            background-color: #333333;
+        }
+
+        thead{
+            background-color: #fcddaf;
+            text-align: center;
+        }
+
+        td{            
+            background-color: #f2f5c7;
+            text-align: center;
+        }
+
+        td,th{            
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        #hide{
+            display: none;
+        }
+
+        button{
+            padding: 5px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
