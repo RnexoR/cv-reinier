@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="CV de Reinier Rivas">
+    <link rel="stylesheet" href="estilos.css">
     <title>Curriculum de Reinier Rivas</title>
 
     <style>
@@ -93,6 +94,16 @@
             padding-right: 5px;
         }
 
+        #hide{
+            display: none;
+        }
+
+        button{
+            padding: 5px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
     </style>
 
 </head>
@@ -116,15 +127,19 @@
 
         <div id="me">
             <h1>Reinier Rivas</h1>
-            <p>En los últimos años me he adentrado en el mundo de la programación y el desarrollo web, aunque en realidad más en el segundo. También me gusta la materia de la economía. E irónicamente he disfrutado mucho de historia desde el año pasado, asignatura de la cual me quejaba constantemente durante casi toda mi etapa de bachiller.</p>
-            <p>Inicié en el mundo de la programación y el desarrollo con cursos que me permitieron entender el alcance y el camino a tomar para continuar con mi formación profesional.</p>
+            <button type="button" onclick="toHide()" id="ocultar">Presionar para leer breve reseña</button>
+            <p id="hide">En los últimos años me he adentrado en el mundo de la programación y el desarrollo web, aunque en realidad más en el segundo. También me gusta la materia de la economía. E irónicamente he disfrutado mucho de historia desde el año pasado, asignatura de la cual me quejaba constantemente durante casi toda mi etapa de bachiller.
+                Inicié en el mundo de la programación y el desarrollo con cursos que me permitieron entender el alcance y el camino a tomar para continuar con mi formación profesional.
+                A partir del año 2020 estudio en la <button type="button" onclick="logo()">Universidad</button>.
+            </p>
+            <img id="imagen" src="" alt="Logo Unitec" style="width: 250px;">
         </div>
 
         <hr>
 
         <div id="experiencia">
             <h2>Experiencia Laboral</h2>
-            <p>A mis 18 años no he tenido verdadera experiencia laboral. Lo más semejante fue hacer suplencia por 3 semanas de un trabajador que estaba de vacaciones en el negocio familiar</p>
+            <p>A mis 18 años no he tenido verdadera experiencia laboral. Lo más semejante fue hacer suplencia por 3 semanas de un trabajador que estaba de vacaciones en el negocio familiar.</p>
         </div>
 
         <hr>
@@ -132,10 +147,10 @@
         <div id="habilidades">
             <h2>Habilidades</h2>
             <ul>
-                <li><strong>Programación Básica: </strong>C#, Python</li>
-                <li><strong>Desarrollo Web: </strong>HTML5, CSS3, MySQL, PHP</li>
+                <li><strong>Programación Básica: </strong>C#, Python.</li>
+                <li><strong>Desarrollo Web: </strong>HTML5, CSS3, MySQL, PHP.</li>
                 <li><strong>Mantenimiento de PC: </strong>Limpieza profunda, Reseteo y Formateo de equipo, Instalación de Windows, Office.</li>
-                <li><strong>Idiomas: </strong>Inglés avanzado</li>
+                <li><strong>Idiomas: </strong>Inglés avanzado.</li>
             </ul>
         </div>
 
@@ -212,9 +227,10 @@
 
         <hr>
 
-        <div id="footer">
+        <div>
             <h2>Footer</h2>
-            <p>Me gustaría aclarar que considero a la educación y a la escolaridad como términos diferentes, ya que uno no necesita de una escuela o universidad para educarse, solo las ganas de aprender.</p>
+            <button type="button" onclick="autor()">Autor de la Página Web</button>
+            <p id="footer">Me gustaría aclarar que considero a la educación y a la escolaridad como términos diferentes, ya que uno no necesita de una escuela o universidad para educarse, solo las ganas de aprender.</p>
         </div>
 
     </div>
